@@ -3,19 +3,19 @@
 
 library(tidyverse)
 library(data.table)
-library(ivpack)
+library(ivpack) # pak::pak("cran/ivpack")
 library(meta)
 library(devtools)
 library(pacman)
 library(TwoSampleMR)
-library(MRInstruments)
+library(MRInstruments) # pak::pak("MRCIEU/MRInstruments")
 library(ieugwasr)
-library(phenoscanner)
+library(phenoscanner) # pak::pak("phenoscanner/phenoscanner")
 library(LDlinkR)
 library(mr.raps)
 library(MRPRESSO)
 library(extrafont)
-library(anchors)
+library(anchors) # pak::pak("viadee/anchorsOnR")
 
 # Functions
 #------------------------------------------------------------------------------#
